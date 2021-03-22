@@ -53,18 +53,19 @@ function calcSalary($hours, $price){
 // echo "***************************** </br>";
 
 
-$arr = [1,2,3,4,5];
+$arr = [1,2,3,4,5]; // array
 
-$accArr = [ "name" => "Marah" , "age" => 20];
+$accArr = [ "name" => "Marah" , "age" => 20]; //associatve array
 
 // var_dump($accArr);
 
 // echo $accArr["name"];
 
-$arr2D = [
-    [ 1, 2, 3],
+$arr2D = [ // 2 dimntional array
+    [ 1, 2, 3], // +++++ 
     [ 4, 5, 6],
     [ "name" => "Marah" , "age" => 20, "GPA" => 92]
 ];
 
-echo $arr2D[2][0];
+echo $arr2D[2]['name'];
+
