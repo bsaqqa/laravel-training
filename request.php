@@ -1,7 +1,7 @@
 <?php
 
-// if(isset($_GET['name'])){
-//     echo $_GET['name']. '<br>';
+// if(isset($_GET['username'])){
+//     echo $_GET['username']. '<br>';
 // }
 // if(isset($_GET['age'])){
 //     echo $_GET['age']. '<br>';
@@ -13,5 +13,9 @@
 // var_dump($_GET);
 
 foreach($_GET as $key => $elm){
-    echo $key.': '. $elm . ' >> <br>';
+    echo $key.': '. $elm . '  <br>';
 }
+
+// foreach($_POST as $key => $elm){
+//     echo $key.': '. $elm . '  <br>';
+// }

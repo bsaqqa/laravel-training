@@ -21,9 +21,9 @@ $newArray = array_map(function($elm){
 // echo '<br>';
 // var_dump($newArray);
 
-foreach($accArr as $key=>$elm){
-    echo ucfirst($key).": $elm<br/>";
-}
+// foreach($accArr as $key=>$elm){
+//     echo ucfirst($key).": $elm<br/>";
+// }
 
 foreach($newArray as $key=>$elm){
     echo ucfirst($key).": $elm<br/>";
