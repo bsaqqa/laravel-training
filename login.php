@@ -1,12 +1,15 @@
 <?php
-
 session_start();
 
+include('db.php');
+
+
 $users  = [
-    ['username' => 'ahmed', 'password' => '123123'],
-    ['username' => 'ahed', 'password' => '123123'],
-    ['username' => 'marah', 'password' => '123123'],
-    ['username' => 'afnane', 'password' => '123123'],
+    ['username' => 'ahmed',     'password' => '123123'],
+    ['username' => 'ahed',      'password' => '123123'],
+    ['username' => 'marah',     'password' => '123123'],
+    ['username' => 'afnane',    'password' => '123123'],
+    ['username' => 'afnane',    'password' => '123123'],
 ];
 
 function isTrueUser($username, $password){
